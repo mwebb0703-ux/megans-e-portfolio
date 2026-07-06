@@ -160,3 +160,18 @@ font-weight: 700;
 .about-me {
   width: 100%;
 }
+
+/* TECH - STACK */
+
+.language__img {
+  width: 100%;
+  max-width: 100px;
+}
+
+.language__img--wrapper {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
