@@ -246,6 +246,46 @@ font-weight: 700;
   filter: blur(5px);
 }
 
+.project:hover .project__description {
+  opacity: 1;
+  transform: translateY(-50%);
+
+}
+
 .project__list {
   padding-top: 40px;
 }
+
+.project__description
+{
+  position: absolute;
+  top: 50%;
+  transform: translateY(100);
+  left: 90px;
+  max-width: 550px;
+  z-index: 3;
+  opacity: 0;
+  transition: transform 450ms, oppacity 300ms ease;
+}
+
+.project__description--title{
+  font-size: 40px;
+}
+
+.Project__description--par {
+  margin: 16px 0;
+}
+
+.project__description--links {
+  font-size: 20px;
+  margin-right: 16px;
+}
+
+.project__description--title,
+.project__description--sub-title,
+.Project__description--para,
+.project__description--link {
+  text-align: left;
+  color: white;
+}
+
