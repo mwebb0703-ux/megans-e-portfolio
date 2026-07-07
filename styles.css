@@ -297,3 +297,17 @@ font-weight: 700;
   color: white;
 }
 
+/*footer*/
+
+footer {
+  background-color: #242424 ; 
+}
+
+.footer__row{
+  padding: 8%;
+}
+.footer__logo--image {
+  width: 70px;
+  height: 70px;
+}
+
