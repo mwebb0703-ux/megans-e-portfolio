@@ -211,6 +211,14 @@ font-weight: 700;
 
 /* Project section */
 
+.project {
+  margin-bottom: 135px;
+}
+
+.pjoject: last-child{
+  margin-bottom 40px;
+}
+
 .project__img {
   width: 100%;
   transition: all 500ms ease;
