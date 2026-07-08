@@ -385,8 +385,9 @@ font-weight: 700;
   font-size: 40px;
 }
 
-.Project__description--para {
+.project__description--para {
   margin: 16px 0;
+  color: #fff;
 }
 
 .project__description--link {
@@ -409,7 +410,7 @@ footer {
 }
 
 .footer__logo {
-  margin- bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .footer__social--list {
@@ -420,23 +421,32 @@ footer {
   margin-bottom: 28px;
 }
 
-.footer__row,
-.footer__social--link {
+.footer__row {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 8%;
+}
+
+.footer__social--link{
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  
 }
 
 .footer__logo--img {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100x;
 }
 
 .footer__social--link,
 .footer__copyright,
 .footer__logo--popper {
   color: #fff
+}
+
+.footer__copyright {
+  padding: 30px;
 }
 
 .footer__logo--popper{
@@ -449,7 +459,7 @@ footer {
   transition: all 300ms ease;
 }
 
-.footer_anchor {
+.footer__anchor {
   margin-bottom: 20px;
   position: relative;
 }
