@@ -483,3 +483,40 @@ footer {
   }
 }
 
+/* small phones */
+
+@media (max-width: 480px) {
+  .nav__link:not(:last-child) {
+    display: none
+  }
+
+  .project__wrapper {
+    border-radius: 0;
+  }
+
+  .project__description {
+    padding: 0;
+    Left: 0;
+    width: 100%;
+  }
+
+  .project__descriptoin--para {
+    display: none;
+  }
+
+  .project__description--links {
+    display: flex;
+    justify-content: center;
+  }
+  .project__description--title {
+    font-size: 32px;
+    line-height: 1;
+    text-align: center;
+  }
+
+  .project__description--sub-title {
+    text-align: center;
+    margin: 12px 0;
+  }
+}
+
