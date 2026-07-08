@@ -425,8 +425,8 @@ footer {
 }
 
 .footer__logo--img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
 
 .footer__social--link,
@@ -441,5 +441,17 @@ footer {
   top: 30px;
   font-weight: 700;
   opacity: 0;
+  transition: all 300ms ease;
 }
 
+.footer_anchor {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.footer__anchor:hover .footer__logo-popper {
+  transform: translateX(60px);
+  opacity: 1;
+}
+
+/* small phone, tablets, large smartphones */
