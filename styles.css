@@ -408,11 +408,38 @@ footer {
   background-color: #242424 ; 
 }
 
-.footer__row{
+.footer__social--list {
+  width:100%
+  max-width: 500px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 28px;
+}
+
+.footer__row,
+.footer__social--link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 8%;
 }
-.footer__logo--image {
-  width: 70px;
-  height: 70px;
+
+.footer__logo--img {
+  width: 100px;
+  height: 100px;
+}
+
+.footer__social--link,
+.footer__copyright,
+.footer__logo--popper {
+  color: #fff
+}
+
+.footer__logo--popper{
+  position: absolute;
+  right: 0;
+  top: 30px;
+  font-weight: 700;
+  opacity: 0;
 }
 
