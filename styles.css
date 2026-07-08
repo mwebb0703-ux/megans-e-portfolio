@@ -408,6 +408,10 @@ footer {
   background-color: #242424 ; 
 }
 
+.footer__logo {
+  margin- bottom: 20px;
+}
+
 .footer__social--list {
   width:100%
   max-width: 500px;
@@ -436,6 +440,7 @@ footer {
 }
 
 .footer__logo--popper{
+  color: #fff;
   position: absolute;
   right: 0;
   top: 30px;
@@ -449,11 +454,10 @@ footer {
   position: relative;
 }
 
-.footer__anchor:hover .footer__logo-popper {
+.footer__anchor:hover .footer__logo--popper {
   transform: translateX(60px);
   opacity: 1;
 }
-
 /* small phone, tablets, large smartphones */
 
 @media (max-with: 768px) {
